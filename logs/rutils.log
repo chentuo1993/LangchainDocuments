@@ -1,0 +1,411 @@
+2023-09-13 15:23:00,971 | root | INFO | Starting scheduler with run_id: 8fal4oqd
+2023-09-13 15:23:00,971 | asyncio | DEBUG | Using selector: KqueueSelector
+2023-09-13 15:23:00,972 | rocketry.scheduler | INFO | Starting up...
+2023-09-13 15:23:00,972 | rocketry.scheduler | INFO | Startup complete.
+2023-09-13 15:23:01,074 | rocketry.task | INFO | Task 'start' status: 'run'
+2023-09-13 15:23:01,075 | rocketry.task | INFO | Task 'polling' status: 'run'
+2023-09-13 15:23:01,075 | rocketry.task | ERROR | Task 'start' status: 'fail'
+Traceback (most recent call last):
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/core/task.py", line 597, in _run_as_async
+    output = await self.execute(**params)
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/tasks/func.py", line 230, in execute
+    output = func(**params)
+  File "/Users/tuochen/Engineering/tasks.py", line 24, in start
+    log.info(f"Starting stage 1")
+NameError: name 'log' is not defined
+2023-09-13 15:23:01,076 | rocketry.task | ERROR | Task 'polling' status: 'fail'
+Traceback (most recent call last):
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/core/task.py", line 597, in _run_as_async
+    output = await self.execute(**params)
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/tasks/func.py", line 230, in execute
+    output = func(**params)
+  File "/Users/tuochen/Engineering/tasks.py", line 29, in polling
+    log.info("Polling")
+NameError: name 'log' is not defined
+2023-09-13 15:23:11,165 | rocketry.task | INFO | Task 'polling' status: 'run'
+2023-09-13 15:23:11,166 | rocketry.task | ERROR | Task 'polling' status: 'fail'
+Traceback (most recent call last):
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/core/task.py", line 597, in _run_as_async
+    output = await self.execute(**params)
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/tasks/func.py", line 230, in execute
+    output = func(**params)
+  File "/Users/tuochen/Engineering/tasks.py", line 29, in polling
+    log.info("Polling")
+NameError: name 'log' is not defined
+2023-09-13 15:23:21,173 | rocketry.task | INFO | Task 'polling' status: 'run'
+2023-09-13 15:23:21,177 | rocketry.task | ERROR | Task 'polling' status: 'fail'
+Traceback (most recent call last):
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/core/task.py", line 597, in _run_as_async
+    output = await self.execute(**params)
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/tasks/func.py", line 230, in execute
+    output = func(**params)
+  File "/Users/tuochen/Engineering/tasks.py", line 29, in polling
+    log.info("Polling")
+NameError: name 'log' is not defined
+2023-09-13 15:23:31,119 | rocketry.task | INFO | Task 'start' status: 'run'
+2023-09-13 15:23:31,121 | rocketry.task | ERROR | Task 'start' status: 'fail'
+Traceback (most recent call last):
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/core/task.py", line 597, in _run_as_async
+    output = await self.execute(**params)
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/tasks/func.py", line 230, in execute
+    output = func(**params)
+  File "/Users/tuochen/Engineering/tasks.py", line 24, in start
+    log.info(f"Starting stage 1")
+NameError: name 'log' is not defined
+2023-09-13 15:23:31,223 | rocketry.task | INFO | Task 'polling' status: 'run'
+2023-09-13 15:23:31,223 | rocketry.task | ERROR | Task 'polling' status: 'fail'
+Traceback (most recent call last):
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/core/task.py", line 597, in _run_as_async
+    output = await self.execute(**params)
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/tasks/func.py", line 230, in execute
+    output = func(**params)
+  File "/Users/tuochen/Engineering/tasks.py", line 29, in polling
+    log.info("Polling")
+NameError: name 'log' is not defined
+2023-09-13 15:23:41,313 | rocketry.task | INFO | Task 'polling' status: 'run'
+2023-09-13 15:23:41,314 | rocketry.task | ERROR | Task 'polling' status: 'fail'
+Traceback (most recent call last):
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/core/task.py", line 597, in _run_as_async
+    output = await self.execute(**params)
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/tasks/func.py", line 230, in execute
+    output = func(**params)
+  File "/Users/tuochen/Engineering/tasks.py", line 29, in polling
+    log.info("Polling")
+NameError: name 'log' is not defined
+2023-09-13 15:23:51,369 | rocketry.task | INFO | Task 'polling' status: 'run'
+2023-09-13 15:23:51,371 | rocketry.task | ERROR | Task 'polling' status: 'fail'
+Traceback (most recent call last):
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/core/task.py", line 597, in _run_as_async
+    output = await self.execute(**params)
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/tasks/func.py", line 230, in execute
+    output = func(**params)
+  File "/Users/tuochen/Engineering/tasks.py", line 29, in polling
+    log.info("Polling")
+NameError: name 'log' is not defined
+2023-09-13 15:24:01,203 | rocketry.task | INFO | Task 'start' status: 'run'
+2023-09-13 15:24:01,204 | rocketry.task | ERROR | Task 'start' status: 'fail'
+Traceback (most recent call last):
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/core/task.py", line 597, in _run_as_async
+    output = await self.execute(**params)
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/tasks/func.py", line 230, in execute
+    output = func(**params)
+  File "/Users/tuochen/Engineering/tasks.py", line 24, in start
+    log.info(f"Starting stage 1")
+NameError: name 'log' is not defined
+2023-09-13 15:24:01,408 | rocketry.task | INFO | Task 'polling' status: 'run'
+2023-09-13 15:24:01,409 | rocketry.task | ERROR | Task 'polling' status: 'fail'
+Traceback (most recent call last):
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/core/task.py", line 597, in _run_as_async
+    output = await self.execute(**params)
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/tasks/func.py", line 230, in execute
+    output = func(**params)
+  File "/Users/tuochen/Engineering/tasks.py", line 29, in polling
+    log.info("Polling")
+NameError: name 'log' is not defined
+2023-09-13 15:24:11,434 | rocketry.task | INFO | Task 'polling' status: 'run'
+2023-09-13 15:24:11,436 | rocketry.task | ERROR | Task 'polling' status: 'fail'
+Traceback (most recent call last):
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/core/task.py", line 597, in _run_as_async
+    output = await self.execute(**params)
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/tasks/func.py", line 230, in execute
+    output = func(**params)
+  File "/Users/tuochen/Engineering/tasks.py", line 29, in polling
+    log.info("Polling")
+NameError: name 'log' is not defined
+2023-09-13 15:24:21,495 | rocketry.task | INFO | Task 'polling' status: 'run'
+2023-09-13 15:24:21,496 | rocketry.task | ERROR | Task 'polling' status: 'fail'
+Traceback (most recent call last):
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/core/task.py", line 597, in _run_as_async
+    output = await self.execute(**params)
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/tasks/func.py", line 230, in execute
+    output = func(**params)
+  File "/Users/tuochen/Engineering/tasks.py", line 29, in polling
+    log.info("Polling")
+NameError: name 'log' is not defined
+2023-09-13 15:24:31,234 | rocketry.task | INFO | Task 'start' status: 'run'
+2023-09-13 15:24:31,237 | rocketry.task | ERROR | Task 'start' status: 'fail'
+Traceback (most recent call last):
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/core/task.py", line 597, in _run_as_async
+    output = await self.execute(**params)
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/tasks/func.py", line 230, in execute
+    output = func(**params)
+  File "/Users/tuochen/Engineering/tasks.py", line 24, in start
+NameError: name 'log' is not defined
+2023-09-13 15:24:31,554 | rocketry.task | INFO | Task 'polling' status: 'run'
+2023-09-13 15:24:31,555 | rocketry.task | ERROR | Task 'polling' status: 'fail'
+Traceback (most recent call last):
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/core/task.py", line 597, in _run_as_async
+    output = await self.execute(**params)
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/tasks/func.py", line 230, in execute
+    output = func(**params)
+  File "/Users/tuochen/Engineering/tasks.py", line 29, in polling
+NameError: name 'log' is not defined
+2023-09-13 15:24:41,631 | rocketry.task | INFO | Task 'polling' status: 'run'
+2023-09-13 15:24:41,633 | rocketry.task | ERROR | Task 'polling' status: 'fail'
+Traceback (most recent call last):
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/core/task.py", line 597, in _run_as_async
+    output = await self.execute(**params)
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/tasks/func.py", line 230, in execute
+    output = func(**params)
+  File "/Users/tuochen/Engineering/tasks.py", line 29, in polling
+NameError: name 'log' is not defined
+2023-09-13 15:24:51,705 | rocketry.task | INFO | Task 'polling' status: 'run'
+2023-09-13 15:24:51,709 | rocketry.task | ERROR | Task 'polling' status: 'fail'
+Traceback (most recent call last):
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/core/task.py", line 597, in _run_as_async
+    output = await self.execute(**params)
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/tasks/func.py", line 230, in execute
+    output = func(**params)
+  File "/Users/tuochen/Engineering/tasks.py", line 29, in polling
+NameError: name 'log' is not defined
+2023-09-13 15:25:01,305 | rocketry.task | INFO | Task 'start' status: 'run'
+2023-09-13 15:25:01,308 | rocketry.task | ERROR | Task 'start' status: 'fail'
+Traceback (most recent call last):
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/core/task.py", line 597, in _run_as_async
+    output = await self.execute(**params)
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/tasks/func.py", line 230, in execute
+    output = func(**params)
+  File "/Users/tuochen/Engineering/tasks.py", line 24, in start
+NameError: name 'log' is not defined
+2023-09-13 15:25:01,732 | rocketry.task | INFO | Task 'polling' status: 'run'
+2023-09-13 15:25:01,733 | rocketry.task | ERROR | Task 'polling' status: 'fail'
+Traceback (most recent call last):
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/core/task.py", line 597, in _run_as_async
+    output = await self.execute(**params)
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/tasks/func.py", line 230, in execute
+    output = func(**params)
+  File "/Users/tuochen/Engineering/tasks.py", line 29, in polling
+NameError: name 'log' is not defined
+2023-09-13 15:25:11,834 | rocketry.task | INFO | Task 'polling' status: 'run'
+2023-09-13 15:25:11,834 | rocketry.task | ERROR | Task 'polling' status: 'fail'
+Traceback (most recent call last):
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/core/task.py", line 597, in _run_as_async
+    output = await self.execute(**params)
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/tasks/func.py", line 230, in execute
+    output = func(**params)
+  File "/Users/tuochen/Engineering/tasks.py", line 29, in polling
+NameError: name 'log' is not defined
+2023-09-13 15:25:21,876 | rocketry.task | INFO | Task 'polling' status: 'run'
+2023-09-13 15:25:21,877 | rocketry.task | ERROR | Task 'polling' status: 'fail'
+Traceback (most recent call last):
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/core/task.py", line 597, in _run_as_async
+    output = await self.execute(**params)
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/tasks/func.py", line 230, in execute
+    output = func(**params)
+  File "/Users/tuochen/Engineering/tasks.py", line 29, in polling
+NameError: name 'log' is not defined
+2023-09-13 15:25:31,361 | rocketry.task | INFO | Task 'start' status: 'run'
+2023-09-13 15:25:31,364 | rocketry.task | ERROR | Task 'start' status: 'fail'
+Traceback (most recent call last):
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/core/task.py", line 597, in _run_as_async
+    output = await self.execute(**params)
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/tasks/func.py", line 230, in execute
+    output = func(**params)
+  File "/Users/tuochen/Engineering/tasks.py", line 24, in start
+NameError: name 'log' is not defined
+2023-09-13 15:25:31,893 | rocketry.task | INFO | Task 'polling' status: 'run'
+2023-09-13 15:25:31,894 | rocketry.task | ERROR | Task 'polling' status: 'fail'
+Traceback (most recent call last):
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/core/task.py", line 597, in _run_as_async
+    output = await self.execute(**params)
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/tasks/func.py", line 230, in execute
+    output = func(**params)
+  File "/Users/tuochen/Engineering/tasks.py", line 29, in polling
+NameError: name 'log' is not defined
+2023-09-13 15:25:41,912 | rocketry.task | INFO | Task 'polling' status: 'run'
+2023-09-13 15:25:41,913 | rocketry.task | ERROR | Task 'polling' status: 'fail'
+Traceback (most recent call last):
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/core/task.py", line 597, in _run_as_async
+    output = await self.execute(**params)
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/tasks/func.py", line 230, in execute
+    output = func(**params)
+  File "/Users/tuochen/Engineering/tasks.py", line 29, in polling
+    log.info("Polling")
+NameError: name 'log' is not defined
+2023-09-13 15:25:48,251 | rocketry.scheduler | INFO | Shutdown completed. Good bye.
+2023-09-13 15:25:51,305 | root | INFO | Starting scheduler with run_id: ebd873h9
+2023-09-13 15:25:51,305 | asyncio | DEBUG | Using selector: KqueueSelector
+2023-09-13 15:25:51,305 | rocketry.scheduler | INFO | Starting up...
+2023-09-13 15:25:51,306 | rocketry.scheduler | INFO | Startup complete.
+2023-09-13 15:25:51,408 | rocketry.task | INFO | Task 'start' status: 'run'
+2023-09-13 15:25:51,409 | rocketry.task | INFO | Task 'polling' status: 'run'
+2023-09-13 15:25:51,409 | rocketry.task | ERROR | Task 'start' status: 'fail'
+Traceback (most recent call last):
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/core/task.py", line 597, in _run_as_async
+    output = await self.execute(**params)
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/tasks/func.py", line 230, in execute
+    output = func(**params)
+  File "/Users/tuochen/Engineering/tasks.py", line 24, in start
+    log.info(f"Starting stage 1")
+AttributeError: 'function' object has no attribute 'info'
+2023-09-13 15:25:51,410 | rocketry.task | ERROR | Task 'polling' status: 'fail'
+Traceback (most recent call last):
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/core/task.py", line 597, in _run_as_async
+    output = await self.execute(**params)
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/tasks/func.py", line 230, in execute
+    output = func(**params)
+  File "/Users/tuochen/Engineering/tasks.py", line 29, in polling
+    log.info("Polling")
+AttributeError: 'function' object has no attribute 'info'
+2023-09-13 15:26:01,501 | rocketry.task | INFO | Task 'polling' status: 'run'
+2023-09-13 15:26:01,503 | rocketry.task | ERROR | Task 'polling' status: 'fail'
+Traceback (most recent call last):
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/core/task.py", line 597, in _run_as_async
+    output = await self.execute(**params)
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/tasks/func.py", line 230, in execute
+    output = func(**params)
+  File "/Users/tuochen/Engineering/tasks.py", line 29, in polling
+    log.info("Polling")
+AttributeError: 'function' object has no attribute 'info'
+2023-09-13 15:26:11,554 | rocketry.task | INFO | Task 'polling' status: 'run'
+2023-09-13 15:26:11,555 | rocketry.task | ERROR | Task 'polling' status: 'fail'
+Traceback (most recent call last):
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/core/task.py", line 597, in _run_as_async
+    output = await self.execute(**params)
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/tasks/func.py", line 230, in execute
+    output = func(**params)
+  File "/Users/tuochen/Engineering/tasks.py", line 29, in polling
+    log.info("Polling")
+AttributeError: 'function' object has no attribute 'info'
+2023-09-13 15:26:21,445 | rocketry.task | INFO | Task 'start' status: 'run'
+2023-09-13 15:26:21,447 | rocketry.task | ERROR | Task 'start' status: 'fail'
+Traceback (most recent call last):
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/core/task.py", line 597, in _run_as_async
+    output = await self.execute(**params)
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/tasks/func.py", line 230, in execute
+    output = func(**params)
+  File "/Users/tuochen/Engineering/tasks.py", line 24, in start
+    log.info(f"Starting stage 1")
+AttributeError: 'function' object has no attribute 'info'
+2023-09-13 15:26:21,651 | rocketry.task | INFO | Task 'polling' status: 'run'
+2023-09-13 15:26:21,652 | rocketry.task | ERROR | Task 'polling' status: 'fail'
+Traceback (most recent call last):
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/core/task.py", line 597, in _run_as_async
+    output = await self.execute(**params)
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/tasks/func.py", line 230, in execute
+    output = func(**params)
+  File "/Users/tuochen/Engineering/tasks.py", line 29, in polling
+    log.info("Polling")
+AttributeError: 'function' object has no attribute 'info'
+2023-09-13 15:26:31,739 | rocketry.task | INFO | Task 'polling' status: 'run'
+2023-09-13 15:26:31,739 | rocketry.task | ERROR | Task 'polling' status: 'fail'
+Traceback (most recent call last):
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/core/task.py", line 597, in _run_as_async
+    output = await self.execute(**params)
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/tasks/func.py", line 230, in execute
+    output = func(**params)
+  File "/Users/tuochen/Engineering/tasks.py", line 29, in polling
+    log.info("Polling")
+AttributeError: 'function' object has no attribute 'info'
+2023-09-13 15:26:41,839 | rocketry.task | INFO | Task 'polling' status: 'run'
+2023-09-13 15:26:41,840 | rocketry.task | ERROR | Task 'polling' status: 'fail'
+Traceback (most recent call last):
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/core/task.py", line 597, in _run_as_async
+    output = await self.execute(**params)
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/tasks/func.py", line 230, in execute
+    output = func(**params)
+  File "/Users/tuochen/Engineering/tasks.py", line 29, in polling
+    log.info("Polling")
+AttributeError: 'function' object has no attribute 'info'
+2023-09-13 15:26:51,450 | rocketry.task | INFO | Task 'start' status: 'run'
+2023-09-13 15:26:51,453 | rocketry.task | ERROR | Task 'start' status: 'fail'
+Traceback (most recent call last):
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/core/task.py", line 597, in _run_as_async
+    output = await self.execute(**params)
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/tasks/func.py", line 230, in execute
+    output = func(**params)
+  File "/Users/tuochen/Engineering/tasks.py", line 24, in start
+    log.info(f"Starting stage 1")
+AttributeError: 'function' object has no attribute 'info'
+2023-09-13 15:26:51,866 | rocketry.task | INFO | Task 'polling' status: 'run'
+2023-09-13 15:26:51,867 | rocketry.task | ERROR | Task 'polling' status: 'fail'
+Traceback (most recent call last):
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/core/task.py", line 597, in _run_as_async
+    output = await self.execute(**params)
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/tasks/func.py", line 230, in execute
+    output = func(**params)
+  File "/Users/tuochen/Engineering/tasks.py", line 29, in polling
+    log.info("Polling")
+AttributeError: 'function' object has no attribute 'info'
+2023-09-13 15:27:01,945 | rocketry.task | INFO | Task 'polling' status: 'run'
+2023-09-13 15:27:01,946 | rocketry.task | ERROR | Task 'polling' status: 'fail'
+Traceback (most recent call last):
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/core/task.py", line 597, in _run_as_async
+    output = await self.execute(**params)
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/tasks/func.py", line 230, in execute
+    output = func(**params)
+  File "/Users/tuochen/Engineering/tasks.py", line 29, in polling
+    log.info("Polling")
+AttributeError: 'function' object has no attribute 'info'
+2023-09-13 15:27:12,032 | rocketry.task | INFO | Task 'polling' status: 'run'
+2023-09-13 15:27:12,034 | rocketry.task | ERROR | Task 'polling' status: 'fail'
+Traceback (most recent call last):
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/core/task.py", line 597, in _run_as_async
+    output = await self.execute(**params)
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/tasks/func.py", line 230, in execute
+    output = func(**params)
+  File "/Users/tuochen/Engineering/tasks.py", line 29, in polling
+    logging.info("Polling")
+AttributeError: 'function' object has no attribute 'info'
+2023-09-13 15:27:21,497 | rocketry.task | INFO | Task 'start' status: 'run'
+2023-09-13 15:27:21,502 | rocketry.task | ERROR | Task 'start' status: 'fail'
+Traceback (most recent call last):
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/core/task.py", line 597, in _run_as_async
+    output = await self.execute(**params)
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/tasks/func.py", line 230, in execute
+    output = func(**params)
+  File "/Users/tuochen/Engineering/tasks.py", line 24, in start
+    logging.info(f"Starting stage 1")
+AttributeError: 'function' object has no attribute 'info'
+2023-09-13 15:27:22,126 | rocketry.task | INFO | Task 'polling' status: 'run'
+2023-09-13 15:27:22,128 | rocketry.task | ERROR | Task 'polling' status: 'fail'
+Traceback (most recent call last):
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/core/task.py", line 597, in _run_as_async
+    output = await self.execute(**params)
+  File "/Users/tuochen/opt/anaconda3/lib/python3.9/site-packages/rocketry/tasks/func.py", line 230, in execute
+    output = func(**params)
+  File "/Users/tuochen/Engineering/tasks.py", line 29, in polling
+    logging.info("Polling")
+AttributeError: 'function' object has no attribute 'info'
+2023-09-13 15:27:22,516 | rocketry.scheduler | INFO | Shutdown completed. Good bye.
+2023-09-13 15:27:24,597 | root | INFO | Starting scheduler with run_id: 1tjye2k8
+2023-09-13 15:27:24,597 | asyncio | DEBUG | Using selector: KqueueSelector
+2023-09-13 15:27:24,597 | rocketry.scheduler | INFO | Starting up...
+2023-09-13 15:27:24,598 | rocketry.scheduler | INFO | Startup complete.
+2023-09-13 15:27:24,700 | rocketry.task | INFO | Task 'start' status: 'run'
+2023-09-13 15:27:24,701 | rocketry.task | INFO | Task 'polling' status: 'run'
+2023-09-13 15:27:24,701 | root | INFO | Starting stage 1
+2023-09-13 15:27:24,701 | rocketry.task | INFO | Task 'start' status: 'success'
+2023-09-13 15:27:24,701 | root | INFO | Polling
+2023-09-13 15:27:24,701 | rocketry.task | INFO | Task 'polling' status: 'success'
+2023-09-13 15:27:24,803 | rocketry.task | INFO | Task 'polling' status: 'run'
+2023-09-13 15:27:24,804 | root | INFO | Polling
+2023-09-13 15:27:24,804 | rocketry.task | INFO | Task 'polling' status: 'success'
+2023-09-13 15:27:34,885 | rocketry.task | INFO | Task 'polling' status: 'run'
+2023-09-13 15:27:34,887 | root | INFO | Polling
+2023-09-13 15:27:34,887 | rocketry.task | INFO | Task 'polling' status: 'success'
+2023-09-13 15:27:44,986 | rocketry.task | INFO | Task 'polling' status: 'run'
+2023-09-13 15:27:44,987 | root | INFO | Polling
+2023-09-13 15:27:44,987 | rocketry.task | INFO | Task 'polling' status: 'success'
+2023-09-13 15:27:54,785 | rocketry.task | INFO | Task 'start' status: 'run'
+2023-09-13 15:27:54,789 | root | INFO | Starting stage 1
+2023-09-13 15:27:54,790 | rocketry.task | INFO | Task 'start' status: 'success'
+2023-09-13 15:27:54,891 | rocketry.task | INFO | Task 'polling' status: 'run'
+2023-09-13 15:27:54,892 | root | INFO | Polling
+2023-09-13 15:27:54,892 | rocketry.task | INFO | Task 'polling' status: 'success'
+2023-09-13 15:28:04,919 | rocketry.task | INFO | Task 'polling' status: 'run'
+2023-09-13 15:28:04,920 | root | INFO | Polling
+2023-09-13 15:28:04,920 | rocketry.task | INFO | Task 'polling' status: 'success'
+2023-09-13 15:28:14,953 | rocketry.task | INFO | Task 'polling' status: 'run'
+2023-09-13 15:28:14,955 | root | INFO | Polling
+2023-09-13 15:28:14,955 | rocketry.task | INFO | Task 'polling' status: 'success'
+2023-09-13 15:28:24,846 | rocketry.task | INFO | Task 'start' status: 'run'
+2023-09-13 15:28:24,850 | root | INFO | Starting stage 1
+2023-09-13 15:28:24,851 | rocketry.task | INFO | Task 'start' status: 'success'
+2023-09-13 15:28:24,952 | rocketry.task | INFO | Task 'polling' status: 'run'
+2023-09-13 15:28:24,952 | root | INFO | Polling
+2023-09-13 15:28:24,952 | rocketry.task | INFO | Task 'polling' status: 'success'
+2023-09-13 15:28:35,006 | rocketry.task | INFO | Task 'polling' status: 'run'
+2023-09-13 15:28:35,008 | root | INFO | Polling
+2023-09-13 15:28:35,008 | rocketry.task | INFO | Task 'polling' status: 'success'
+2023-09-13 15:28:37,675 | rocketry.scheduler | INFO | Shutdown completed. Good bye.
